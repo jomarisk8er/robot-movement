@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.table {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+._5, ._4, ._3, ._2, ._1 {
+    display: flex;
+} 
+
+.a, .b, .c, .d, .e {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot-placeholder {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot.north {
+    transform: rotate(0deg);
+}
+
+.robot.east {
+    transform: rotate(90deg);
+}
+
+.robot.south {
+    transform: rotate(180deg);
+}
+
+.robot.west {
+    transform: rotate(270deg);
+}
+
+.buttons {
+    margin: auto;
+    text-align: center;
+}
